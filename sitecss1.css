@@ -1,0 +1,27 @@
+body {background-color: 006666;
+}
+    /*Стиль заголовка*/
+h1 {font-size:500%;
+    text-align: center;
+    color: FFFFCC;
+    font-family: Cursive,serif, Bookman;
+}
+#zagalovok p {
+	text-align: center;
+	font-size: 250%;
+	color: CCFFFF;
+	font-family: cursive, serif;
+}
+#zagalovok p em{
+	color: ff0033;
+	font-weight: bolder;
+}
+	/*Конец стиля заголовка*
+	/*Обо мне */
+#aboutme {
+	text-indent: 360px;
+	font-size: 36px;
+}
+#aboutme h2{
+	text-indent: 60px;
+}
