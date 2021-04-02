@@ -19,9 +19,11 @@ h1 {font-size:500%;
 	/*Конец стиля заголовка*
 	/*Обо мне */
 #aboutme {
-	text-indent: 360px;
-	font-size: 36px;
+	font-size: 30px;
 }
 #aboutme h2{
+	text-indent: 60px;
+}
+#aboutme p strong{
 	text-indent: 60px;
 }
