@@ -1,0 +1,65 @@
+body{
+    background-color: #fcfca4;
+}
+/*HEADER*/
+header{
+    background-color: #CCCC99;
+    color: #000000;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 25px;
+    font-family: Cursive,serif, Bookman;
+    padding: 25px;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+/*FIRST*/
+.first{
+    border-radius: 50px;
+    background-color: #CCCC99;
+    margin-top: 25px;
+}
+.first h1{
+    margin-left: 1000px;
+    margin-bottom: -32px;
+    font-size: xxx-large;
+}
+.first p{
+    margin-left: 640px;
+    margin-bottom: -500px;
+    font-size: xx-large;
+}
+.first p i{
+    font-family:serif, sans-serif;
+    font-weight: bold;
+}
+/*SECOND*/
+.second{
+    border-radius: 50px;
+    background-color: #CCCC99;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.second img{
+    margin-bottom: -160px;
+}
+.second p{
+    text-align: center;
+}
+.second p i {
+    font-family: Cursive, serif, Bookman;
+}
+
+/*THIRD*/
+.third{
+    border-radius: 50px;
+    background-color: #CCCC99;
+    margin-top: 25px;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.third img{
+    margin-bottom: -12px;
+}
