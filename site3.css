@@ -1,5 +1,5 @@
 body{
-    background-color: #fcfca4;
+    background-color: #652a95;
 }
 /*HEADER*/
 header{
@@ -40,9 +40,10 @@ header{
     margin-top: 25px;
     font-weight: bolder;
     font-size: xxx-large;
+    text-align: center;
 }
 .second img{
-    margin-bottom: -160px;
+    margin-bottom: -16px;
 }
 .second p{
     text-align: center;
