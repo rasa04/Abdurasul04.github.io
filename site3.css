@@ -20,9 +20,10 @@ header{
     margin-top: 25px;
 }
 .first h1{
-    margin-left: 1000px;
+    margin-left: 70%;
     margin-bottom: -32px;
     font-size: xxx-large;
+    font-family: Calibri, fantasy;
 }
 .first p{
     margin-left: 640px;
