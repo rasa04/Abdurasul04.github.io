@@ -1,9 +1,9 @@
 body {
-    background: url(https://webfon.top/wp-content/uploads/2016/10/mathematics.jpg) left top repeat;
+    background: url(sunset.jpg) left top repeat;
 }
 /*HEADER*/
 header{
-    background-color: cadetblue;
+    background-color: cornsilk;
     color: #000000;
     font-size: xx-large;
     text-align: center;
@@ -18,18 +18,32 @@ header{
     height: 50px;
     width: 250px;
     border-radius: 20px;
-    border: bisque;
-    background-color: lavender;
+    border: none;
+    background-color: sienna;
+    font-style: italic;
+    color: lavender;
 }
-#submit{
+.submit{
     height: 50px;
+    width: 50px;
     border-radius: 10px;
-    border: bisque;
-    background-color: lavender;
+    background-color: sienna;
 }
 /*photo*/
 .photo{
     border-radius: 100px;
+    margin-top: 25px;
+}
+#time{
+    font-style: italic;
+    font-size: xxx-large;
+    color: black;
+    background-color: lavender;
+    border-radius: 10px;
+    height: 80px;
+    width: 160px;
+    margin-left: 86%;
+    margin-bottom: -16px;
     margin-top: 25px;
 }
 .photo img{
@@ -39,9 +53,8 @@ header{
 /*FIRST*/
 .first{
     border-radius: 50px;
-    background-color: cadetblue;
+    background-color: cornsilk;
     margin-top: 25px;
-    opacity: 0.9;
 }
 .first h1{
     margin-left: 25%;
@@ -62,7 +75,7 @@ header{
 /*SECOND*/
 .phone{
     border-radius: 50px;
-    background-color: cadetblue;
+    background-color: cornsilk;
     margin-top: 5%;
     font-weight: bolder;
     font-size: xxx-large;
@@ -81,7 +94,7 @@ header{
 /*THIRD*/
 .telegram{
     border-radius: 50px;
-    background-color: cadetblue;
+    background-color: cornsilk;
     margin-top: 1%;
     text-align: center;
     font-size: xxx-large;
@@ -93,7 +106,7 @@ header{
 }
 .gmail{
     border-radius: 50px;
-    background-color: cadetblue;
+    background-color: cornsilk;
     margin-top: 1%;
     text-align: center;
     font-size: xxx-large;
