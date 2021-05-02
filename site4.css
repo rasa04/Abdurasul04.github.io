@@ -1,5 +1,5 @@
 body {
-    background: url(sunset.jpg) left top repeat;
+    background: url(sunset.jpg);
 }
 /*HEADER*/
 header{
@@ -29,6 +29,24 @@ header{
     border-radius: 10px;
     background-color: sienna;
 }
+/*Change theme*/
+#theme1{
+    margin-left: 76%;
+    height: 40px;
+    width: 64px;
+    border-radius: 5px;
+    background-color: gold;
+    font-weight: bolder;
+}
+#theme2{
+    margin-left: 85%;
+    height: 40px;
+    width: 64px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-weight: bolder;
+    margin-top: -40px;
+}
 /*photo*/
 .photo{
     border-radius: 100px;
@@ -51,68 +69,43 @@ header{
     border-radius: 50px;
 }
 /*FIRST*/
-.first{
+#first{
     border-radius: 50px;
     background-color: cornsilk;
     margin-top: 25px;
 }
-.first h1{
+#first h1{
     margin-left: 25%;
     margin-bottom: -32px;
     font-size: xxx-large;
     font-family: Calibri, fantasy;
     color: #652a95;
 }
-.first p{
+#first p{
     margin-left: 5%;
     margin-right: 5%;
     font-size: xxx-large;
 }
-.first p i{
+#first p i{
     font-family:serif, sans-serif;
     font-weight: bold;
 }
 /*SECOND*/
-.phone{
+.info{
     border-radius: 50px;
     background-color: cornsilk;
-    margin-top: 5%;
+    margin-top: 1%;
     font-weight: bolder;
     font-size: xxx-large;
     text-align: center;
     opacity: 0.9;
 }
-.phone img{
+#phone img{
     margin-bottom: -16px;
 }
-.phone p{
-    text-align: center;
-}
-.phone p i {
-    font-family: Cursive, serif, Bookman;
-}
-/*THIRD*/
-.telegram{
-    border-radius: 50px;
-    background-color: cornsilk;
-    margin-top: 1%;
-    text-align: center;
-    font-size: xxx-large;
-    font-weight: bolder;
-    opacity: 0.9;
-}
-.telegram img{
+#telegram img{
     margin-bottom: -12px;
 }
-.gmail{
-    border-radius: 50px;
-    background-color: cornsilk;
-    margin-top: 1%;
-    text-align: center;
-    font-size: xxx-large;
-    font-weight: bolder;
-    opacity: 0.9;
-}
-.gmail img{
+#gmail img{
     margin-bottom: -12px;
 }
