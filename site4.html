@@ -8,14 +8,15 @@
 
 <body>
 
-<header>
+<header id="header">
     <h1>
         Thanks for visiting <i style="color: red">my</i>  site
     </h1>
-    <label >
+        <label for="search"></label>
         <input type="search" name="search" id="search" placeholder="SEARCH">
-        <button class="submit" value="FIN">FIND</button>
-    </label>
+        <button class="submit" onclick="search()">FIND</button>
+            <button id="theme1" onclick="changeToNight()" >Night</button>
+            <button id="theme2" onclick="changeToWhite()"></button>
 </header>
 
 <section class="photo">
@@ -23,7 +24,7 @@
     <img src="photo_01.jpg" alt="It is me" />
 </section>
 
-<section class="first">
+<section id="first">
     <h1>
         Hey!
     </h1>
@@ -37,14 +38,14 @@
     </p>
 </section>
 
-<section class="phone">
+<section id="phone" class="info">
     <img src="https://img.icons8.com/nolan/64/phone.png"
          alt="It is me"
          width="100" height="100">
     <a href="tel:+998990190955">PHONE</a>
 </section>
 
-<section class="telegram">
+<section id="telegram" class="info">
     <img src="https://bit.ly/3dzMi47"
          alt=""
          width="100" height="100" />
@@ -53,7 +54,7 @@
     </a>
 </section>
 
-<section class="gmail">
+<section id="gmail" class="info">
     <img src="https://img.icons8.com/fluent/48/000000/gmail.png"
         alt=""
          width="100" height="100" />
