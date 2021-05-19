@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru"> <!--May be its wrong-->
+<head>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+            font-size: 500%;
+            color: lightsteelblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #mysearch{
+            background-color: rgb(199, 247, 255);
+            font-size: 250%;
+            width:400px;
+            border: cornsilk;
+            margin-top: 1%;
+            margin-left: 31%;
+        }
+        #search_but{
+            margin-top: 5px;
+            width: 64px;
+            height: 64px;
+        }
+        footer{
+            margin-top: 18%;
+            margin-left: 40%;
+            color: goldenrod;
+            background-color: cadetblue;
+            font-weight: bolder;
+            font-size: xx-large;
+            border-radius: 5px;
+            width: 50%;
+        }
+    </style>
+    <title>page1</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+<h1>
+    ПОИСК КИНО
+</h1>
+<label for="mysearch"></label>
+<form action="" method="get">
+    <input id="mysearch"
+           name="search"
+           type="search" autofocus placeholder="SEARCH"/>
+    <button type="submit" id="search_but">
+        <img src="search.jpg" width="25" height="21">
+    </button>
+</form>
+<?php
+echo '<h1 style="text-align: center ; border-radius: 25px; background-color: lightsteelblue;">
+<a href=' . 'https://rezka.ag/search/?do=search&subaction=search&q='.$_GET['search'] .
+    '><p ">СМОТРЕТЬ</p></a></h1>';
+?>
+<footer><a href="https://t.me/abdurasul">По вопросам сотрудничество</a></footer>
+<script src="script.js"> </script>
+</body>
+</html>
